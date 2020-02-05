@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn DB</title>
+    <link rel="stylesheet" href="assets/css/foundation.min.css">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- ************************** Navbar ************************** -->
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+        <div class="title-bar-title">منو</div>
+    </div>
+
+    <div class="top-bar" id="example-menu">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">آموزش</li>
+                <li>
+                    <a href="#">حساب کاربر</a>
+                    <ul class="menu vertical">
+                        <li><a href="#" data-toggle="LoginModal">ورود</a></li>
+                        <li><a href="#" data-toggle="SingupModal">ثبت نام</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">لیست درس ها</a></li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><input type="search" placeholder="جستجو"></li>
+                <li><button type="button" class="button">جستجو</button></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ************************** Slider ************************** -->
+    <div class="grid-container full">
+
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                    <button class="orbit-previous"><span class="show-for-sr">بعدی</span>&#9664;&#xFE0E;</button>
+                    <button class="orbit-next"><span class="show-for-sr">قبلی</span>&#9654;&#xFE0E;</button>
+                </div>
+                <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                        <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://placehold.it/1200x400/999?text=Slide-1" alt="Space">
+                            <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+                        </figure>
+                    </li>
+                    <li class="orbit-slide">
+                        <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://placehold.it/1200x400/888?text=Slide-2" alt="Space">
+                            <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+                        </figure>
+                    </li>
+                    <li class="orbit-slide">
+                        <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://placehold.it/1200x400/777?text=Slide-3" alt="Space">
+                            <figcaption class="orbit-caption">Encapsulating</figcaption>
+                        </figure>
+                    </li>
+                    <li class="orbit-slide">
+                        <figure class="orbit-figure">
+                            <img class="orbit-image" src="https://placehold.it/1200x400/666&text=Slide-4" alt="Space">
+                            <figcaption class="orbit-caption">Outta This World</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+            <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0">
+                <span class="show-for-sr">First slide details.</span>
+                <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+              </button>
+                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ************************** App ************************** -->
+    <div class="grid-container" id="app">
+
+    </div>
+    <!-- ************************** Login Modal ************************** -->
+    <div class="reveal" id="LoginModal" data-reveal data-close-on-click="true" data-animation-in="spin-in" data-animation-out="spin-out">
+        <h1>ورود به سایت</h1>
+        <p class="lead">نام کاربری و رمز عبور خود را وارد کنید.</p>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <form>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="medium-12 cell">
+                        <label>نام کاربری
+                    <input type="text" placeholder="نام کاربری">
+                  </label>
+                        <label>رمز عبور
+                    <input type="password" placeholder="رمزعبور">
+                  </label>
+                    </div>
+                </div>
+                <button type="submit" class="button">ورود</button>
+            </div>
+        </form>
+    </div>
+    <!-- ************************** Singup Modal ************************** -->
+    <div class="reveal" id="SingupModal" data-reveal data-close-on-click="true" data-animation-in="spin-in" data-animation-out="spin-out">
+        <h1>ثبت نام</h1>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <form>
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <fieldset class="cell large-6">
+                        <label>نام
+                            <input type="text" placeholder="نام">
+                        </label>
+                    </fieldset>
+                    <fieldset class="cell large-6">
+                        <label>نام‌خانوادگی
+                            <input type="text" placeholder="نام‌خانوادگی">
+                        </label>
+                    </fieldset>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="medium-12 cell">
+                        <label>نام کاربری
+                            <input type="text" placeholder="نام کاربری">
+                        </label>
+                        <label>رمز عبور
+                            <input type="password" placeholder="رمزعبور">
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="button">ورود</button>
+            </div>
+        </form>
+    </div>
+    <!-- ************************** Scripts ************************** -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/foundation.min.js"></script>
+    <script src="assets/js/vendor/what-input.js"></script>
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

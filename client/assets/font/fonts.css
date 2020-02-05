@@ -1,0 +1,69 @@
+/*
+ * Droid
+ */
+
+@font-face {
+    font-family: 'droid';
+    font-style: normal;
+    font-weight: 400;
+    src: url(droid/DroidKufi-Regular.eot);
+    src: url(droid/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'), url(droid/DroidKufi-Regular.woff2) format('woff2'), url(droid/DroidKufi-Regular.woff) format('woff'), url(droid/DroidKufi-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'droid';
+    font-style: normal;
+    font-weight: 700;
+    src: url(droid/DroidKufi-Bold.eot);
+    src: url(droid/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'), url(droid/DroidKufi-Bold.woff2) format('woff2'), url(droid/DroidKufi-Bold.woff) format('woff'), url(droid/DroidKufi-Bold.ttf) format('truetype');
+}
+
+
+/*
+ * Vazir
+ */
+
+@font-face {
+    font-family: 'vazir';
+    font-style: normal;
+    font-weight: 300;
+    src: url(vazir/eot/Vazir-Light.eot);
+    src: url(vazir/eot/Vazir-Light.eot?#iefix) format('embedded-opentype'), url(vazir/woff2/Vazir-Light.woff2) format('woff2'), url(vazir/woff/Vazir-Light.woff) format('woff'), url(vazir/ttf/Vazir-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'vazir';
+    font-style: normal;
+    font-weight: 500;
+    src: url(vazir/eot/Vazir-Medium.eot);
+    src: url(vazir/eot/Vazir-Medium.eot?#iefix) format('embedded-opentype'), url(vazir/woff2/Vazir-Medium.woff2) format('woff2'), url(vazir/woff/Vazir-Medium.woff) format('woff'), url(vazir/ttf/Vazir-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'vazir';
+    font-style: bold;
+    font-weight: 700;
+    src: url(vazir/eot/Vazir-Bold.eot);
+    src: url(vazir/eot/Vazir-Bold.eot?#iefix) format('embedded-opentype'), url(vazir/woff2/Vazir-Bold.woff2) format('woff2'), url(vazir/woff/Vazir-Bold.woff) format('woff'), url(vazir/ttf/Vazir-Bold.ttf) format('truetype');
+}
+
+
+/*
+ * Titi
+ */
+
+@font-face {
+    font-family: 'titi';
+    font-style: normal;
+    font-weight: 300;
+    src: url(titi/Titillium-Thin.eot);
+    src: url(titi/Titillium-Thin.eot?#iefix) format('embedded-opentype'), url(titi/Titillium-Thin.woff2) format('woff2'), url(titi/Titillium-Thin.woff) format('woff'), url(titi/Titillium-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'titi';
+    font-style: normal;
+    font-weight: 500;
+    src: url(titi/Titillium-Regular.eot);
+    src: url(titi/Titillium-Regular.eot?#iefix) format('embedded-opentype'), url(titi/Titillium-Regular.woff2) format('woff2'), url(titi/Titillium-Regular.woff) format('woff'), url(titi/Titillium-Regular.ttf) format('truetype');
+}
